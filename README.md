@@ -60,4 +60,5 @@ Thống kê, tổng doanh thu trong tháng (tháng 9)
 ![image](https://github.com/quyentrann/www_lab2_week2/assets/87223234/d539f4d1-d4b6-4b3b-afd4-9b7c4ea76719)
 
  
- 
+ ![image](https://github.com/quyentrann/www_lab2_week2/assets/87223234/b714cb72-5f98-4ce6-af11-7b2b46176e78)
+
