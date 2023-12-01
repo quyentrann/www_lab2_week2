@@ -1,0 +1,31 @@
+$randomColorAlpha: 0.8;
+
+.home-container {
+  padding: 20px;
+
+  .statistic-orders {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .statistic-orders-by-year,
+    .statistic-orders-by-month {
+      width: 48%;
+
+      .card {
+        margin-bottom: 20px;
+
+        .card-body {
+          h5.card-title {
+            margin-bottom: 10px;
+          }
+
+          span {
+            display: block;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}

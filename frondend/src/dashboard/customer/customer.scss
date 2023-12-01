@@ -1,0 +1,49 @@
+.customer-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    h1 {
+      margin-bottom: 20px;
+    }
+  
+    .customer-list {
+      width: 60%;
+      margin-bottom: 20px;
+  
+      .customer-table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+          padding: 10px;
+          border: 1px solid #ddd;
+          text-align: left;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #f5f5f5;
+          }
+        }
+  
+        .selected-customer {
+          background-color: #4CAF50;
+          color: white;
+        }
+      }
+    }
+  
+    .customer-details {
+      width: 60%;
+  
+      h2 {
+        margin-bottom: 10px;
+      }
+  
+      p {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  

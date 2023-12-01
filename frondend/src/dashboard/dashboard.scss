@@ -1,0 +1,36 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .nav-bar-dashboard {
+    width: 330px;
+    background-color: #ffffff;
+    padding: 20px;
+   
+    height: 1000px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    color: rgb(212, 167, 167);
+    width: 200px;
+    font-size: 20px;
+  
+    .nav {
+      padding: 10px;
+      color: rgb(52, 52, 249);
+      text-decoration: none;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #ffcbcb;
+      }
+    }
+  }
+  
+  .container-dashboard {
+    flex: 1;
+    padding: 20px;
+  }
+  

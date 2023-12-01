@@ -1,0 +1,253 @@
+.containers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .content-form{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+
+        .btns-crud{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .btn-cud{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+
+                .btn{
+                    width: 100px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    border: none;
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+
+                .btn-insert{
+                    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+                }
+
+                .btn-delete{
+                    background-image: linear-gradient(315deg, #ff0000 0%, #ffed00 74%);
+                }
+
+                .btn:hover{
+                    color: white;
+                }
+            }
+
+            .btn-r{
+                width: 60%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: end;
+
+                .input-search{
+                    width: 60%;
+                    height: 100%;
+                    font-size: 20px;
+                    padding: 10px;
+                    outline: none;;
+                }
+            }
+        }
+
+        .form-crud{
+            width: 100%;
+            height: 85%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            
+            .form{
+                width: 85%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                align-content: space-around;
+
+                .form-content{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+             
+
+                    .lbl-form{
+                        font-size: 15px;
+                        font-weight: bold;
+                  
+                        width: 70px;
+                    }
+
+                    .input-form{
+                        font-size: 20px;
+                        
+                    }
+                }
+            }
+
+            .btn-insert-update{
+                width: 15%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                .btnIU{
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border: none;
+                }
+
+                .btnIU:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .content-table{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        .table-accounts{
+            width: 100%;
+            height: 85%;
+            display: flex;
+            flex-direction: column;
+
+            .thead-accounts{
+                width: 100%;
+                height: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .tr{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .column-id{
+                        width: 100px;
+                    }
+
+                    .column-email{
+                        width: 350px;
+                    }
+
+                    .column-password{
+                        width: 300px;
+                    }
+
+                    .column-role{
+                        width: 150px;
+                    }
+
+                    .column-customer{
+                        width: 250px;
+                    }
+                }
+            }
+
+            .tbody-accounts{
+                width: 100%;
+                height: 95%;
+                display: flex;
+                flex-direction: column;
+
+                .tr{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: center;
+                    padding: 10px 0px;
+                    cursor: pointer;
+
+                    .column-id{
+                        width: 100px;
+                    }
+
+                    .column-email{
+                        width: 350px;
+                    }
+
+                    .column-password{
+                        width: 300px;
+                    }
+
+                    .column-role{
+                        width: 150px;
+                    }
+
+                    .column-customer{
+                        width: 250px;
+                    }
+                }
+
+                .tr:hover{
+                    background-color: rgba($color: gray, $alpha: 0.1);
+                }
+            }
+        }
+
+        .move-page{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .icon-btn-page{
+                font-size: 45px;
+                margin: 10px;
+                cursor: pointer;
+            }
+
+            .number-btn-page{
+                font-size: 20px;
+                padding: 10px 15px;
+                border-radius: 50%;
+                cursor: pointer;
+                font-weight: bold;
+                border: none;
+            }
+        }
+    }
+}

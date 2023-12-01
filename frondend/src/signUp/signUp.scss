@@ -1,0 +1,52 @@
+// signUp.scss
+
+.container-sign-up {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  
+    .text-sign-up {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      display: block;
+      text-align: center;
+    }
+  
+    .form-sign-up-content {
+      margin-bottom: 20px;
+  
+      .sign-up-label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  
+      .sign-up-input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+  
+      .icon-confirm {
+        font-size: 20px;
+        margin-left: 5px;
+      }
+    }
+  
+    .btn-sign-up {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  }
+  
